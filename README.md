@@ -1,6 +1,9 @@
 # AWS Strands Agents Tutorial 
 
 ## Intro 
+In this step-by-step tutorial, I'll show you how to build a powerful Gmail Subscription Audit & Cancellation Agent using the AWS Strands Agents SDK. This practical project helps you track and manage your recurring subscriptions by scanning your Gmail inbox for payment receipts and subscription notifications.
+
+Youtube Video: https://youtu.be/qe0WYtcsNSI 
 
 ## Prompt Used For Video 
 I want to create a "Gmail Sub Agent" - a Subscription Audit & Cancellation Agent using AWS Strands SDK. This should look for amount sin USD, GBP, and EUROs. The emails may also be in HTML Format. The documentation fo AWS strands is located here: https://github.com/strands-agents/sdk-python. However, you have access to the strands MCP server for documentation. This should run using my default aws profile in us-east-1 where I have amazon Nova running. 
